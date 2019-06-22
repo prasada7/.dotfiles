@@ -2,7 +2,9 @@
 /*
 /*/
 !.gitignore
+!.gitconfig
 !.tmux.conf
 !.gitmodules
+!setup.sh
 
 
