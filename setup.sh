@@ -9,9 +9,14 @@ then
     echo "Vim config submodule init failed" && exit 1
 fi
 
+# Pull changes for vim
+cd ~/.vim && git checkout master && git pull origin master
+
 # Install vim
 echo ------------------
 echo Install vim config
 echo ------------------
-.vim/installVundle.sh
+~/.vim/installVundle.sh
 
+# Remove the .git folder
+rm -rf ~/.git

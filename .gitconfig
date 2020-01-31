@@ -1,8 +1,8 @@
 [user]
-        name = Anandha Padmanaban Prasad
+    name = prasada7
 [alias]
-        st = status
-        co = checkout
-        ci = commit
-        br = branch
-        ru = remote update
+    st = status
+    co = checkout
+    ci = commit
+    br = branch
+    ru = remote update
